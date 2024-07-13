@@ -1,0 +1,35 @@
+.product-list {
+  display: flex;
+}
+
+.filters {
+  width: 20%;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+}
+.content {
+  width: 80%;
+  padding: 20px;
+}
+
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.product-image {
+  width: 100%;
+  height: auto;
+}
+
+.select {
+  margin-bottom: 20px;
+}
